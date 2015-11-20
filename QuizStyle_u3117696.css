@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* FONTS
+
+font-family: 'Covered By Your Grace', cursive;	 	  	Main Title
+font-family: 'Rambla', sans-serif;							   2nd Title
+font-family: 'Hind', sans-serif;	                	For regular Text
+
+Fonts received from: https://www.google.com/fonts#
+*/
+
+
+/* TEXT*/
+h1{
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 3.5em;
+	color:#FFF;
+	padding-top: 25px;
+}
+
+.qTitle, h2 {
+	font-family: 'Hind', sans-serif;
+	padding: 0 20px 0 20px;
+	margin-left: 20px;
+}
+
+p {
+	font-family: 'Hind', sans-serif;
+	padding: 0 20px 0 20px;	
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 1.15em;
+}
+
+
+/* IMAGES */
+.images>li {
+	display: inline-block;	
+}
+
+img {
+	height: 12.5em;
+	width: 12.5em;
+	padding-right: 1.35em;
+	object-fit: fill;
+}
+
+.imageResult {
+	padding-left: 11em;
+	object-fit: scale-down;
+	height: 28em;
+	width: 38em;
+}
+
+
+/* HEADER*/
+header {
+	margin: auto;
+	height: 150px;
+	background-color: black;
+}
+
+
+/* BODY */
+#intro, #results {
+	padding-bottom: 50px;
+}
+
+body {	
+	background-image:url(http://i.imgur.com/t7ltR1h.jpg);
+	width: 1000px;
+	margin: auto;
+}
+
+
+.wrapper {
+	width: 960px;
+	background-color: white;
+}
+
+
+
+
+/* QUESTIONS AND ANSWERS */	
+	
+.question, .result{
+    display: none;
+}
+
+.button:hover {
+	background-color:#30C1FC;
+}
+
+.button
+{
+	text-align: center;
+	font-family: 'Rambla', sans-serif;
+	font-size: 1.25em;
+    border: 2px solid;
+	border-color: #AB20FF;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+
+#startButton {
+	padding: 0.5em;	
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+
+.answers, .responses
+{
+    padding: 0 30px 40px 30px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.answers>li:hover {
+	background-color: #0CF;
+}
+
+.answers>li
+{
+	text-align: center;
+	font-family: 'Rambla', sans-serif;
+	font-size: 1.25em;
+    border: 2px solid;
+	border-color: #AB20FF;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+	width: 8.85em;
+	height: 2em;
+}
